@@ -1,0 +1,17 @@
+package com.lss.SpringCloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class Main9528 {
+    public static void main(String[] args) {
+
+
+        SpringApplication.run(Main9528.class,args);
+        System.out.println("欢迎雒世松来到网关cloudalibaba-sentinel-gateway9528!");
+    }
+}
